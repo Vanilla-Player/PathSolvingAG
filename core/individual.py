@@ -7,3 +7,5 @@ class Individual:
         self.fitness = None
 
 
+    def printPath(self):
+        print(self.path)

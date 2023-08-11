@@ -7,7 +7,11 @@ num_generations = 20
 
 grid_size= (3,3)
 
-ga_engine = GeneticAlgorithEngine(population_size, num_generations, grid_size)
+start = (0,0)
+
+end = (3,3)
+
+ga_engine = GeneticAlgorithEngine(population_size, num_generations, grid_size,start, end)
 
 
 ga_engine.run()
